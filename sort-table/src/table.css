@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+table {
+   position: relative;
+   top: 100px;
+   left:300px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ddd;
+}
+thead {
+    /* background-color: #333; */
+    color: #fff;
+}
+thead,tbody {
+    display: block;
+}
+th,td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    width: 200px;
+    box-sizing: border-box;
+
+}
+/* tbody {
+    height: 160px;
+    overflow-x: scroll
+} */
